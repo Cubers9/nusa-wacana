@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nusa Wacana - Membedah Indonesia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'custom-gray': '#929590',
+                        'custom-dark-green': '#303735',
+                        'custom-white': '#F8F9F7',
+                        'custom-light-gray': '#C5C9C8',
+                        'custom-dark-brown': '#3D3931'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-custom-white text-custom-dark-green">
+    <!-- Navbar -->
+    <nav class="bg-custom-white shadow-md px-6 py-4 flex justify-between items-center border-b border-custom-light-gray">
+        <div class="flex items-center">
+            <div class="bg-custom-dark-green p-2 rounded-full mr-3">
+                <i class="fas fa-globe-asia text-custom-white text-2xl"></i>
+            </div>
+            <h1 class="text-2xl font-bold text-custom-dark-green">Nusa Wacana</h1>
+        </div>
+        <div class="space-x-6">
+            <a href="index.html" class="text-custom-dark-green font-semibold hover:text-custom-gray">Beranda</a>
+            <a href="politik.html" class="text-custom-dark-green font-semibold hover:text-custom-gray">Politik</a>
+            <a href="#" class="text-custom-dark-green font-semibold hover:text-custom-gray">Geopolitik</a>
+            <a href="#" class="text-custom-dark-green font-semibold hover:text-custom-gray">Tradisi</a>
+        </div>
+        <button class="bg-custom-dark-green text-custom-white px-6 py-2 rounded-full hover:bg-custom-gray transition">
+            Bergabung
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container mx-auto px-6 py-16 flex items-center">
+        <div class="w-1/2 pr-10">
+            <h2 class="text-4xl font-bold text-custom-dark-green mb-6">
+                Membedah Kompleksitas Nusantara
+            </h2>
+            <p class="text-custom-dark-brown text-lg mb-8">
+                Nusa Wacana hadir sebagai suara perubahan bagi Nusantara. Dengan kekayaan alam yang melimpah, keindahan yang tak terbantahkan, serta warisan tradisional yang begitu berharga, Indonesia seharusnya melangkah maju, <b>bukan terjebak dalam absurditas politik.</b> Kami akan membahas politik, geopolitik, tradisionalisme, modern tradisionalisme, budaya, hingga pesona alam Indonesia. Saatnya membuka wawasan, saatnya bergerak untuk perubahan!
+            </p>
+            <div class="space-x-4">
+                <button class="bg-custom-dark-green text-custom-white px-8 py-3 rounded-full hover:bg-custom-gray transition">
+                    Baca Artikel
+                </button>
+                <button class="border-2 border-custom-dark-green text-custom-dark-green px-8 py-3 rounded-full hover:bg-custom-light-gray transition">
+                    Tentang Kami
+                </button>
+            </div>
+        </div>
+        <div class="w-1/2">
+            <img src="15793.jpg" alt="Ngarai Sianok Landscape" class="rounded-2xl shadow-xl object-cover">
+        </div>
+    </div>
+   
+    
+    <!-- Fokus Kajian -->
+    <div class="container mx-auto px-6 py-16">
+        <h3 class="text-3xl font-bold text-center mb-12 text-custom-dark-green">
+            Fokus Kajian Kami
+        </h3>
+        <div class="grid grid-cols-3 gap-8">
+            <a href="politik.html" class="block hover:scale-105 transition-transform">
+                <div class="bg-custom-white p-6 rounded-2xl shadow-md border border-custom-light-gray hover:shadow-lg transition">
+                    <i class="fas fa-landmark text-4xl text-custom-dark-green mb-4"></i>
+                    <h4 class="font-bold text-xl mb-3 text-custom-dark-green">Politik Nasional</h4>
+                    <p class="text-custom-dark-brown">
+                        Analisis mendalam dinamika politik Indonesia, dari pemerintahan hingga demokrasi.
+                    </p>
+                </div>
+            </a>
+            <div class="bg-custom-white p-6 rounded-2xl shadow-md border border-custom-light-gray hover:shadow-lg transition">
+                <i class="fas fa-globe text-4xl text-custom-dark-green mb-4"></i>
+                <h4 class="font-bold text-xl mb-3 text-custom-dark-green">Geopolitik</h4>
+                <p class="text-custom-dark-brown">
+                    Telaah strategis hubungan internasional dan posisi Indonesia di pentas dunia.
+                </p>
+            </div>
+            <div class="bg-custom-white p-6 rounded-2xl shadow-md border border-custom-light-gray hover:shadow-lg transition">
+                <i class="fas fa-mountain text-4xl text-custom-dark-green mb-4"></i>
+                <h4 class="font-bold text-xl mb-3 text-custom-dark-green">Kekayaan Nusantara</h4>
+                <p class="text-custom-dark-brown">
+                    Eksplorasi sumber daya alam, budaya, dan keindahan geografis Indonesia.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="flex items-center justify-center h-screen bg-custom-white">
+        <div class="text-center">
+            <h1 class="text-6xl font-bold text-custom-dark-green mb-4">Coming Soon</h1>
+            <p class="text-xl text-custom-dark-brown">Kami sedang mempersiapkan perubahan untuk negeri tercinta.</p>
+            <p class="text-lg text-custom-dark-brown mb-6">Tetap pantau terus perkembangan kami!</p>
+            <button class="bg-custom-dark-green text-custom-white px-8 py-3 rounded-full hover:bg-custom-gray transition">
+                Stay Tuned
+            </button>
+        </div>
+    </div>
+    <footer class="bg-custom-dark-green text-custom-white py-12">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div>
+                <h5 class="text-2xl font-bold mb-3">Nusa Wacana</h5>
+                <p class="text-custom-light-gray">Media Informasi Independen</p>
+            </div>
+            <div class="space-x-6">
+                <a href="#" class="text-custom-white hover:text-custom-light-gray"><i class="fab fa-twitter text-2xl"></i></a>
+                <a href="#" class="text-custom-white hover:text-custom-light-gray"><i class="fab fa-facebook text-2xl"></i></a>
+                <a href="#" class="text-custom-white hover:text-custom-light-gray"><i class="fab fa-instagram text-2xl"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
